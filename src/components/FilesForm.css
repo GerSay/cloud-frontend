@@ -1,0 +1,57 @@
+.files-page {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.files-form {
+}
+
+.files-header {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    text-align: center;
+    margin-bottom: 20px;
+    color: #213547;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.67);
+}
+
+.files-group {
+    position: fixed;
+    top: 15%;
+    left: 5%;
+    right: 15%;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.files-upload {
+    position: absolute;
+    top: 15%;
+    right: 5%;
+}
+
+.file-item {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.file-item span {
+    font-size: 16px;
+    color: #333;
+}
+
+.files-context-menu {
+    position: relative;
+}
+
+input[type="file"] {
+    margin-right: 5px;
+}

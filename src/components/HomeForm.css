@@ -1,0 +1,41 @@
+.home-page {
+    background-image: url("../resources/untitled.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+.home-form {
+}
+
+.home-header {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    text-align: center;
+    margin-bottom: 20px;
+    color: #213547;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.67);
+}
+
+.home-body {
+    padding: 10px 20px;
+    position: absolute;
+    align-content: center;
+    bottom: 5%;
+}
+
+.home-link-button {
+    align-items: center;
+    background-color: rgba(181, 255, 235, 0.25) !important;
+    color: #213547 !important;
+    border-color: #ffffff !important;
+    border-radius: 0;
+}
+
+.home-link-button:hover {
+    background-color: rgb(181, 255, 235) !important;
+}
